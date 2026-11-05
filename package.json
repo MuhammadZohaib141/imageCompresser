@@ -1,0 +1,27 @@
+{
+  "name": "imagecompresser",
+  "version": "1.0.0",
+  "description": "Browser-based Image Compressor with Vercel Analytics",
+  "main": "jszip.min.js",
+  "scripts": {
+    "build": "esbuild analytics.js --bundle --format=iife --outfile=analytics.bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadZohaib141/imageCompresser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadZohaib141/imageCompresser/issues"
+  },
+  "homepage": "https://github.com/MuhammadZohaib141/imageCompresser#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
